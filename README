@@ -19,3 +19,6 @@ w.z
 // Map y-axis to freq of some synth
 x = Synth(\whatev);
 x.map(\freq, w.y)
+
+
+Note: Ubuntu 11.04 - must remove xserver-xorg-input-wacom
