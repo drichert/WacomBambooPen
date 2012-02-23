@@ -5,8 +5,6 @@ dan.richert@gmail.com
 
 SuperCollider class for handling input from a Wacom Bamboo Pen tablet.
 
-http://www.wacom.com/en/Products/BambooTablets/BambooPen.aspx
-
 Usage:
 // s is the default server (used for creating control buses)
 w = WacomBambooPen.new(s)
