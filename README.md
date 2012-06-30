@@ -1,11 +1,10 @@
-WacomBambooPen.sc
+# WacomBambooPen
 
-Dan Richert
-dan.richert@gmail.com
+SuperCollider class for handling input from a Wacom Bamboo Pen tablet
 
-SuperCollider class for handling input from a Wacom Bamboo Pen tablet.
+### Usage
 
-Usage:
+```
 // s is the default server (used for creating control buses)
 w = WacomBambooPen.new(s)
 
@@ -17,6 +16,7 @@ w.z
 // Map y-axis to freq of some synth
 x = Synth(\whatev);
 x.map(\freq, w.y)
+```
+### Notes
 
-
-Note: Ubuntu 11.04 - must remove xserver-xorg-input-wacom
+Ubuntu 11.04 - must remove xserver-xorg-input-wacom
